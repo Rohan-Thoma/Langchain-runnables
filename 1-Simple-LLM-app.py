@@ -1,6 +1,6 @@
 #Here we are looking at traditonal way of working with langchain
 from langchain_classic.llms import OpenAI
-from langchain_core.prompts import PromptTemplate
+from langchain_classic.prompts import PromptTemplate
 from dotenv import load_dotenv
 
 load_dotenv()
