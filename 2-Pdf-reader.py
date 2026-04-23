@@ -22,7 +22,7 @@ retriever = vector_store.as_retriever()
 query = "What are the key takeaways from the document?"
 retrived_docs = retriever._get_relevant_documents(query)
 
-# Combine retrieved text into a single prompt
+# Combine retrieved text into a single prompt 
 retrieved_text = "\n".join([doc.page_content for doc in retrived_docs])
 
 # initialize the llM
